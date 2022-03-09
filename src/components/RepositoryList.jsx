@@ -1,13 +1,18 @@
+import { RepositoryItem } from "./RepositoryItem";
+
+const repository ={
+  name: 'unform',
+  description: 'repository about',
+  link:'www.google.com'
+}
+
 export function RepositoryList(){
   return(
     <section>
       <ul>
-        <li>
-          <strong>unform</strong>
-          <p>description to repository</p>
+        <RepositoryItem repository={repository} />
+        <RepositoryItem repository={repository}/>
 
-          <a href="#"></a>
-        </li>
       </ul>
     </section>
   )
