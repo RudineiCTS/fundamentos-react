@@ -14,7 +14,7 @@ module.exports={
         filename:'bundle.js'
     },
     resolve:{
-        extensions:['.js', '.jsx', 'ts', 'tsx']
+        extensions:['.js', '.jsx', '.ts', '.tsx']
     },
     //webpack vai observar as alterações do código, para que cada alteração, seja criado o bundle
     //essa config precisa receber o local que fica o arquivo html estatico 

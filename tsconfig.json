@@ -1,16 +1,14 @@
 {
   "compilerOptions": {                                
     "lib": ["DOM", "DOM.Iterable", "ESNext"],             //entender a dom e os atributos dela                           
-    "jsx": "react-jsx",                                //enteder react - escrever html em js
-    "module": "commonjs",                                
+    "jsx": "react-jsx",                                //enteder react - escrever html em js                              
     "moduleResolution": "node",   
     "resolveJsonModule": true,     //permite arquivos json
     "isolatedModules": true,               
     "allowJs": true,     //permite js                             
     "noEmit": true,                                   
     "allowSyntheticDefaultImports": true,             
-    "esModuleInterop": true,                             
-    "forceConsistentCasingInFileNames": true,            
+    "esModuleInterop": true,                                   
     "strict": true,                                      
     "skipLibCheck": true                                 
   },
